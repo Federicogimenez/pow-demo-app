@@ -1,1 +1,118 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    font-family: 'Oswald Regular';
+}
+html{
+    font-size: 62.5%; //10px/16px=1rem=10px
+    font-family: 'Oswald Regular';
+}
+
+// BUTTONS
+
+
+.btn{
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+    position: relative;
+    cursor: pointer;
+    transition: all .3s;
+
+    &__green{
+        background-image: linear-gradient(to bottom,#2db004, #073000);
+        font-size: 2.5rem;
+        font-family: 'Oswald Bold';
+        padding: 1rem;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all .2s;
+
+        &--text{
+            font-family: 'Oswald Bold';
+            background-image: linear-gradient(to top, #7b7b7b 10%, #fff 90%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            letter-spacing: 1px;
+            text-shadow: 2px 4px 2px rgba(0, 0, 0, 0.31);
+
+
+
+        }
+
+    }
+}
+.btn__green:hover .btn__green--text{
+    color: rgb(212, 212, 212);
+}
+.btn::first-letter{
+    text-transform: capitalize;
+}
+.btn__green:hover{
+    transform: translateY(-2px);
+    box-shadow: 4px 4px 5px rgba(42, 42, 42, 0.68);
+}
+
+
+
+// COLORS
+
+.color-1{
+    color: #f8cc00;
+}
+.color-2{
+    color: #fd7100;    
+}
+.color-3{
+    color: #03c4c4;
+
+}
+.color-4{
+    color: #fff;
+}
+
+.display-none{
+    display: none;
+}
+
+
+// FONTS
+
+@font-face {
+    font-family: 'Oswald Bold';
+    src: url('./assets/fonts/oswald-font/Oswald-Bold.ttf');
+}
+@font-face {
+    font-family: 'Oswald ExtraLight';
+    src: url('./assets/fonts/oswald-font/Oswald-ExtraLight.ttf');
+}
+@font-face {
+    font-family: 'Oswald Regular';
+    src: url('./assets/fonts/oswald-font/Oswald-Regular.ttf');
+}
+@font-face {
+    font-family: 'Oswald Light';
+    src: url('./assets/fonts/oswald-font/Oswald-Light.ttf');
+}
+@font-face {
+    font-family: 'Oswald Medium';
+    src: url('./assets/fonts/oswald-font/Oswald-Medium.ttf');
+}
+@font-face {
+    font-family: 'Oswald SemiBold';
+    src: url('./assets/fonts/oswald-font/Oswald-SemiBold.ttf');
+}

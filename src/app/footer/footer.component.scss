@@ -1,0 +1,75 @@
+.footer-container{
+    margin: 0 auto;
+    background-image: url(./../../assets/icons-backgrounds/bg_menu_bottom.png) ;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    max-width: 500px;
+    height: 8vh;
+    max-height: 14rem;
+    position: relative;
+    z-index: 1000;
+
+
+}
+.home-menu{
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+    &__list{
+        width: 90%;
+        height: 70%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    &__item{
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+        width: 80%;
+        height: 80%;
+        transition: all .3s;
+        
+
+        &--1{
+            background-image: url(./../../assets/icons-backgrounds/menu_bottom_icon_home1.png);
+
+            &:hover,
+            &:active
+            {
+                background-image: url(./../../assets/icons-backgrounds/menu_bottom_icon_home_selected.png);
+            }
+        }
+        &--2{
+            background-image: url(./../../assets/icons-backgrounds/menu_bottom_icon_ranking.png);
+            
+            &:hover,
+            &:active
+            {
+                background-image: url(./../../assets/icons-backgrounds/menu_bottom_icon_ranking_selected.png);
+            }
+        }
+        &--3{
+            background-image: url(./../../assets/icons-backgrounds/menu_bottom_icon_friends.png);
+            
+            &:hover,
+            &:active
+            {
+                background-image: url(./../../assets/icons-backgrounds/menu_bottom_icon_friends_selected.png);
+            }
+        }
+        &--4{
+            background-image: url(./../../assets/icons-backgrounds/menu_bottom_icon_notification.png);
+
+            &:hover,
+            &:active
+            {
+                background-image: url(./../../assets/icons-backgrounds/menu_bottom_icon_notification_selected.png);
+            }
+        }
+    }
+}

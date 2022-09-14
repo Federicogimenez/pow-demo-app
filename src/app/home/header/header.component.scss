@@ -1,0 +1,91 @@
+.header-container{
+    margin: 0 auto;
+    background-image: url(./../../../assets/icons-backgrounds/bg_menu_top.png);
+    background-size: cover;
+    width: 100%;
+    max-width: 500px;
+    height: 8vh;
+    max-height: 14rem;
+    // border-bottom-left-radius: 10px;
+    // border-bottom-right-radius: 10px;
+
+
+}
+
+.nav-bar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+
+    &__list{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    &__item-1{
+        background-image: url(./../../../assets/icons-backgrounds/top_user_round.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 5rem;
+        height: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &--user-pic{
+            width: 2.5;
+            height: 2.5rem;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 50%;
+        }
+    }
+    &__item-2{
+        width: 40%;
+        height: 70%;
+        background-image: url(./../../../assets/icons-backgrounds/bg_menu_top.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.73);
+        padding: 2px;
+
+        &--cash-box{
+            width: 100%;
+            height: 100%;
+            background-color: rgb(7, 10, 73);
+            color: #fff;
+            font-size: 1.8rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img{
+                width: 18px;
+                margin-left: 5px;
+            }
+
+        }
+    }
+    &__item-3{
+        width: 4rem;
+        height: 100%;
+        display: flex;
+        align-items: center;
+
+        &--img{
+            width: 100%;
+        }
+    }
+
+}
