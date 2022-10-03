@@ -4,14 +4,14 @@
             <img src="./../../../assets/icons-backgrounds/home_info_button_ranking.png" alt="ranking">
         </div>
         <div class="game-data__item-1">
-            <div class="game-data__text">8000</div>
+            <div class="game-data__text">{{ game.players }}</div>
             <img src="./../../../assets/icons-backgrounds/home_info_icon_user.png" alt="user">
         </div>
         <div class="game-data__item-1">
             <div class="game-data__item-2">
                 <div class="game-data__legend">Prize</div>
                 <div class="game-data__item-1">
-                    <div class="game-data__text">126.000</div>
+                    <div class="game-data__text">{{ game.prize }}</div>
                     <img src="./../../../assets/icons-backgrounds/home_info_icon_coin.png" alt="coin">
                 </div>
             </div>
@@ -20,13 +20,13 @@
             <div class="game-data__item-2">
                 <div class="game-data__legend">Entry free</div>
                 <div class="game-data__item-1">
-                    <div class="game-data__text">126.000</div>
+                    <div class="game-data__text">{{ game.entryFor }}</div>
                     <img src="./../../../assets/icons-backgrounds/home_info_icon_coin.png" alt="coin">
                 </div>
             </div>
         </div>
         <div class="game-data__item-1">
-            <a class="btn btn__green ">
+            <a class="btn btn__green" (click)="playGame()">
                 <div class="btn__green--text">
                     JOIN & PLAY
                 </div> 

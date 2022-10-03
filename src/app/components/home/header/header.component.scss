@@ -1,10 +1,10 @@
 .header-container{
     margin: 0 auto;
-    background-image: url(./../../../assets/icons-backgrounds/bg_menu_top.png);
+    background-image: url(./../../../../assets/icons-backgrounds/bg_menu_top.png);
     background-size: cover;
     width: 100%;
     max-width: 500px;
-    height: 8vh;
+    height: 8%;
     max-height: 14rem;
     // border-bottom-left-radius: 10px;
     // border-bottom-right-radius: 10px;
@@ -29,7 +29,7 @@
         
     }
     &__item-1{
-        background-image: url(./../../../assets/icons-backgrounds/top_user_round.png);
+        background-image: url(./../../../../assets/icons-backgrounds/top_user_round.png);
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
@@ -51,7 +51,7 @@
     &__item-2{
         width: 40%;
         height: 70%;
-        background-image: url(./../../../assets/icons-backgrounds/bg_menu_top.png);
+        background-image: url(./../../../../assets/icons-backgrounds/bg_menu_top.png);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;

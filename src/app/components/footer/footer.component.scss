@@ -1,6 +1,6 @@
 .footer-container{
     margin: 0 auto;
-    background-image: url(./../../assets/icons-backgrounds/bg_menu_bottom.png) ;
+    background-image: url(./../../../assets/icons-backgrounds/bg_menu_bottom.png) ;
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -36,39 +36,39 @@
         
 
         &--1{
-            background-image: url(./../../assets/icons-backgrounds/menu_bottom_icon_home1.png);
+            background-image: url(./../../../assets/icons-backgrounds/menu_bottom_icon_home1.png);
 
             &:hover,
             &:active
             {
-                background-image: url(./../../assets/icons-backgrounds/menu_bottom_icon_home_selected.png);
+                background-image: url(./../../../assets/icons-backgrounds/menu_bottom_icon_home_selected.png);
             }
         }
         &--2{
-            background-image: url(./../../assets/icons-backgrounds/menu_bottom_icon_ranking.png);
+            background-image: url(./../../../assets/icons-backgrounds/menu_bottom_icon_ranking.png);
             
             &:hover,
             &:active
             {
-                background-image: url(./../../assets/icons-backgrounds/menu_bottom_icon_ranking_selected.png);
+                background-image: url(./../../../assets/icons-backgrounds/menu_bottom_icon_ranking_selected.png);
             }
         }
         &--3{
-            background-image: url(./../../assets/icons-backgrounds/menu_bottom_icon_friends.png);
+            background-image: url(./../../../assets/icons-backgrounds/menu_bottom_icon_friends.png);
             
             &:hover,
             &:active
             {
-                background-image: url(./../../assets/icons-backgrounds/menu_bottom_icon_friends_selected.png);
+                background-image: url(./../../../assets/icons-backgrounds/menu_bottom_icon_friends_selected.png);
             }
         }
         &--4{
-            background-image: url(./../../assets/icons-backgrounds/menu_bottom_icon_notification.png);
+            background-image: url(./../../../assets/icons-backgrounds/menu_bottom_icon_notification.png);
 
             &:hover,
             &:active
             {
-                background-image: url(./../../assets/icons-backgrounds/menu_bottom_icon_notification_selected.png);
+                background-image: url(./../../../assets/icons-backgrounds/menu_bottom_icon_notification_selected.png);
             }
         }
     }

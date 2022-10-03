@@ -1,0 +1,15 @@
+<app-header></app-header>
+<div class="home-container">
+    <div class="carrousel">
+
+        <ng-container *ngFor="let game of gameDataArray" >
+            <div class="pantalla">
+                <div class="pantalla__img" [ngStyle]="game.imgUrl">
+                    <div  class="game-data-container">
+                        <app-game-data class="game-data" [game]="game" (enviarId)="playGame($event)"></app-game-data>
+                    </div>
+                </div>
+            </div>
+        </ng-container>
+    </div>
+</div>
